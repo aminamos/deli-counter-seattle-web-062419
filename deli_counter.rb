@@ -4,7 +4,7 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-      katz_deli.each {|i| puts "The line is currently: #{katz_deli.index(i)+1}. #{katz_deli[i]}."}
+      katz_deli.each {|i| puts "The line is currently: #{katz_deli.index(i)}. #{katz_deli[i]}."}
   end
 end
 
