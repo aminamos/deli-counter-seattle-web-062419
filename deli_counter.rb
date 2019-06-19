@@ -2,14 +2,13 @@ katz_deli = []
 
 def line(katz_deli)
   # counter = 0
-  if katz_deli.size == 0
+  if katz_deli.length == 0
     "The line is currently empty."
   elsif katz_deli.length < 0
     "Something is very wrong."
   else
     # while counter < katz_deli.size
-      katz_deli.each do |i|
-      puts "The line is currently: #{katz_deli.index(i)+1}. #{katz_deli[0]}."
+      katz_deli.each {|i| puts "The line is currently: #{katz_deli.index(i)+1}. #{katz_deli[0]}."}
       # counter += 1
       # end
     end
