@@ -1,11 +1,12 @@
 katz_deli = []
 
 def line(katz_deli)
+  newarray = []
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
       katz_deli.each_with_index do |i, index| 
-        puts "The line is currently: #{index}. #{i}."
+        newarray << puts "The line is currently: #{index}. #{i}."
       end
   end
 end
