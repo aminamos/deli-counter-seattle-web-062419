@@ -11,7 +11,6 @@ def line(katz_deli)
       katz_deli.each {|i| puts "The line is currently: #{katz_deli.index(i)+1}. #{katz_deli[i]}."}
       # counter += 1
       # end
-    end
   end
 end
 
