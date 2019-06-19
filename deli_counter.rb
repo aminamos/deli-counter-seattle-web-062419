@@ -6,7 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
       katz_deli.each_with_index  {|i, index| newarray << puts "The line is currently: #{index}. #{i}."}
-      end
+    
   end
 end
 
