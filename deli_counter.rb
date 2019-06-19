@@ -6,7 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     # while counter < katz_deli.size
-      katz_deli.each {|i| puts "The line is currently: #{katz_deli.index(i)+1}. #{katz_deli[i]}."}
+      katz_deli.collect {|i| puts "The line is currently: #{katz_deli.index(i)+1}. #{katz_deli[i]}."}
       # counter += 1
       # end
   end
