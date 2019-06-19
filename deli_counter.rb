@@ -20,7 +20,7 @@ def now_serving(katz_deli)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
   else
-    until katz_deli.length == 0
+    
       puts "Currently serving #{katz_deli.first}."
       katz_deli.shift
     end
@@ -38,12 +38,12 @@ end
 # end
 
 #def now_serving(katz_deli)
-  if katz_deli.length == 0
-    puts "There is nobody waiting to be served!"
-  else
-    until katz_deli.length == 0
-      puts "Currently serving #{katz_deli.first}."
-      katz_deli.shift
-    end
-  end
-end
+ # if katz_deli.length == 0
+  #  puts "There is nobody waiting to be served!"
+  #else
+   # until katz_deli.length == 0
+    #  puts "Currently serving #{katz_deli.first}."
+     # katz_deli.shift
+    #end
+#  end
+#end
