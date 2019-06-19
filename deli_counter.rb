@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  newarray = ["The line is currently: "]
+  newarray = ["The line is currently:"]
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
