@@ -7,6 +7,7 @@ def line(katz_deli)
   else
       until counter == katz_deli.length
         katz_deli.each.with_index(1) {|i, index| puts "The line is currently: #{index}. #{i}."}
+        counter += 1
       end
   end
 end
